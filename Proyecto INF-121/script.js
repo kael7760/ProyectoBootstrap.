@@ -12,21 +12,12 @@ for(i=0;i<9;i++){
     Math.floor(Math.random()*10+1)+"</span>Bs<br><span>Stock:"+
     +Math.floor(Math.random()*10+1)+"</span>"
     listaProductos.appendChild(item)
-}
-for (let j=0;j<6;j++){
-    let child=document.createElement("INPUT");
-    child.setAttribute("type","text")
-    child.setAttribute("placeholder","   "+arr[j])
-    form.appendChild(child)
-}
-let child=document.createElement("textarea");
-child.style.width="95.5%";
-child.style.height="200px";
-form.appendChild(child);
-child=document.createElement("BUTTON")
-child.classList.add("button")
-child.innerHTML="Melting"
-form.appendChild(child)
+}   
+window.addEventListener("scroll",()=>{
+    if(window.scrollY>100){
+        console.log("Abajo")
+    }
+    })
 // const item=document.createElement("DIV")
 // item.classList.add("itemProducto")
 // listaProductos.appendChild(item)
