@@ -1,0 +1,36 @@
+#barra_opciones__lista i span{
+    color: aliceblue;
+}
+.logo{
+    width: 200px;
+    height: 200px;
+    background-image: url(Assets/Imagenes/Logo\ .png);
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+#cabecera div ul li::marker{
+    content: "";
+    transition: ease .5s;
+    -webkit-transition: ease .5s;
+    -moz-transition: ease .5s;
+    -ms-transition: ease .5s;
+    -o-transition: ease .5s;
+}
+#button{
+    background-color: navy;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    padding: 15px;
+    transform: .5s ease;
+    -webkit-transform: .5s ease;
+    -moz-transform: .5s ease;
+    -ms-transform: .5s ease;
+    -o-transform: .5s ease;
+}
+#button a{
+    text-decoration: none;
+    font-weight: 900px;
+}
