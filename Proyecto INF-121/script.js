@@ -13,9 +13,12 @@ for(i=0;i<9;i++){
     +Math.floor(Math.random()*10+1)+"</span>"
     listaProductos.appendChild(item)
 }   
+const navBar=document.getElementById("cabecera")
 window.addEventListener("scroll",()=>{
     if(window.scrollY>100){
-        console.log("Abajo")
+        navBar.classList.add("cabecera_scroll")
+    }else{
+        navBar.classList.remove("cabecera_scroll")
     }
     })
 // const item=document.createElement("DIV")
