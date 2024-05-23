@@ -20,7 +20,7 @@ window.addEventListener("scroll",()=>{
     }else{
         navBar.classList.remove("cabecera_scroll")
     }
-    })
+    });
 // const item=document.createElement("DIV")
 // item.classList.add("itemProducto")
 // listaProductos.appendChild(item)
